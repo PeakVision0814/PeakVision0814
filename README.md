@@ -1,5 +1,3 @@
-## Hi there 👋
-
 <!--
 **PeakVision0814/PeakVision0814** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
