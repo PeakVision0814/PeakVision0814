@@ -29,7 +29,7 @@
 
 ### 最近出版
 
-1. Huang X, Zhang T, Huang J, Guo Y, **Huang G,** et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024.[[paper](https://ieeexplore.ieee.org/abstract/document/10742080)]
+1. Huang X, Zhang T, Huang J, Guo Y, **Huang G,** et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024.[ [文章](https://ieeexplore.ieee.org/abstract/document/10742080) ]
 
 
 本文提出了一种语言引导生成的大型视觉模型（LiGu-LVM），旨在提高物联网医疗设备（IoMT）支持的移动眼科扫描仪的诊断能力。LiGu-LVM通过整合动态分配的高速量化系统（DAHSQS）、语言引导生成局部隔离模块（LiGu）、眼视觉变换段分析模块（OVT-SAM）和多尺度递归注意力分割引擎（MuRASE），解决了低分辨率图像处理效率低、复杂眼部形态测量难度大等问题。实验结果表明，LiGu-LVM在眼部语义分割任务中取得了超过80%的交并比（IoU），并在CelebA-HQ数据集上达到82.9%的IoU，相较现有模型性能提升了4.9%。该方法为IoMT临床环境中的大规模高精度早期筛查提供了可靠支持。
@@ -46,7 +46,7 @@
 }
 ```
 
-2. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774.[[文章](https://www.mdpi.com/1424-8220/24/3/774) | [代码](https://github.com/RicoLeehdu/BiSTIM)]
+2. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774.[ [文章](https://www.mdpi.com/1424-8220/24/3/774) | [代码](https://github.com/RicoLeehdu/BiSTIM) ]
 
 
 本文探讨了在血管网络拓扑约束下分割低光条件下的光学相干断层扫描血管造影（OCTA）图像的技术。研究中提出了一种基于生物学信息信号传递成像框架（BiSTIM）的新方法，包含蛋白组学启发的拓扑分割模块（PrIS-TS）和生物发光适应模块（BLAAM）。这些模块在解决成像伪影、低信噪比及血管分支复杂性方面表现出色。通过对视网膜浅层和深层血管层的精确分割，该方法显著提高了疾病诊断和分类的可靠性，尤其在视网膜静脉阻塞（RVO）和半中心静脉阻塞（HCRVO）的研究中表现优异。实验表明，该技术在多个数据集上的表现超越了现有方法，推动了OCTA图像分割和分析领域的发展。
