@@ -14,6 +14,8 @@ Here are some ideas to get you started:
 -->
 # 👋 Hello, welcome to my GitHub!
 
+简体中文|English
+
 ## ℹ️ About Me
 
 I pursued my Bachelor of Science degree in Information and Computational Science at the School of Mathematics and Information Science, Anyang Institute of Technology, from 2017 to 2021. Currently, I am a Master's student at the School of Communication Engineering, Hangzhou Dianzi University, affiliated with the Intelligent Information Processing Laboratory. My research interests span artificial intelligence, deep learning, computer vision, and medical image segmentation. My goal is to leverage AI technologies to drive innovation in medical image processing or other visual fields and address key challenges in practical applications.
@@ -43,7 +45,7 @@ I pursued my Bachelor of Science degree in Information and Computational Science
 
 1. Huang X, Zhang T, Huang J, Guo Y, **Huang G,** et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024. [[paper](https://ieeexplore.ieee.org/abstract/document/10742080)]
 
-This paper proposes a Linguistic-Guided Generative Large Vision Model (LiGu-LVM) to enhance diagnostic capabilities of IoMT-supported mobile ophthalmic scanners. LiGu-LVM integrates a Dynamically Assigned High-Speed Quantization System (DAHSQS), Linguistic-Guided Generative Local Isolation Module (LiGu), Ocular Vision Transform Segment Analysis Module (OVT-SAM), and Multi-Scale Recursive Attention Segmentation Engine (MuRASE). It addresses challenges in processing low-resolution images and analyzing complex ocular morphologies. Experiments demonstrate over 80% Intersection over Union (IoU) in semantic segmentation tasks and 82.9% IoU on the CelebA-HQ dataset, surpassing existing models by 4.9%. This approach offers robust support for large-scale, high-precision early screening in clinical IoMT environments.
+This paper introduces a Linguistic-Guided Generative Large Vision Model (LiGu-LVM) to enhance the diagnostic capability of IoMT-enabled mobile ocular scanners. LiGu-LVM integrates a Dynamically Allocated High-Speed Quantization System (DAHSQS), a Linguistic-Guided Generative Local-Isolation module (LiGu), an Oculo Visio Transformatrix Segmentum-Analytica Modulorum (OVT-SAM), and a Multi-Scale Recursive Attention Segmentation Engine (MuRASE) to address challenges like low imaging quality and complex ocular morphology measurement. Experimental results demonstrate that LiGu-LVM achieves over 80% Intersection over Union (IoU) in ocular semantic segmentation, reaching 82.9% IoU on the CelebA-HQ dataset, outperforming existing models by 4.9%. This approach provides robust support for large-scale, high-precision early screening of ocular diseases in IoMT clinical environments.
 
 If this article helps, feel free to cite it:
 
@@ -59,7 +61,7 @@ If this article helps, feel free to cite it:
 
 2. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774. [[paper](https://www.mdpi.com/1424-8220/24/3/774) | [code](https://github.com/RicoLeehdu/BiSTIM)]
 
-This study explores techniques for segmenting low-light Optical Coherence Tomography Angiography (OCTA) images under vascular network topology constraints. It introduces a novel method based on a Biological Information Signal Transmission Imaging Framework (BiSTIM), incorporating a Proteomics-Inspired Topological Segmentation Module (PrIS-TS) and a Bioluminescence Adaptation Module (BLAAM). These modules excel in addressing imaging artifacts, low signal-to-noise ratio, and complex vascular branching. The method enhances the reliability of disease diagnosis and classification, particularly in cases of retinal vein occlusion (RVO) and hemi-central retinal vein occlusion (HCRVO). Experiments show superior performance across datasets, advancing the field of OCTA image segmentation and analysis.
+This paper explores techniques for segmenting optical coherence tomography angiography (OCTA) images under low-light conditions with vascular network topology constraints. A novel Biological Information Signal Transduction Imaging Framework (BiSTIM) is proposed, incorporating the Proteomic-Inspired Topological Segmentation (PrIS-TS) and Bio-Luminescence Adaptation (BLAAM) modules. These modules effectively address imaging artifacts, low signal-to-noise ratios, and vascular branching complexities. By achieving precise segmentation of superficial and deep retinal vascular layers, this method significantly enhances the reliability of disease diagnosis and classification, particularly in retinal vein occlusion (RVO) and hemicentral retinal vein occlusion (HCRVO) studies. Experiments demonstrate that this approach outperforms existing methods across multiple datasets, advancing the field of OCTA image segmentation and analysis.
 
 If this article helps, feel free to cite it:
 
@@ -92,7 +94,7 @@ If you are interested in my work, feel free to contact me via email: [gaopeng.hu
 
 ## ⚡ Fun Facts:
 
-I have a keen interest in artificial intelligence, particularly its application in improving medical diagnostics. Outside of research, I enjoy playing badminton, which helps me stay physically fit and energized for learning and work 😊. If you are also interested in badminton, feel free to connect with me—I’d love to play and share the joy of sports with friends!
+I have a keen interest in artificial intelligence, particularly its application in improving medical diagnostics. Outside of research, I enjoy playing badminton🏸, which helps me stay physically fit and energized for learning and work 😊. If you are also interested in badminton, feel free to connect with me—I’d love to play and share the joy of sports with friends!
 
 
 
