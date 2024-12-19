@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 -->
 # 👋 Hello, welcome to my GitHub!
 
-简体中文|English
+[简体中文](https://github.com/PeakVision0814/PeakVision0814/blob/main/README_zh.md) | English
 
 ## ℹ️ About Me
 
@@ -43,7 +43,7 @@ I pursued my Bachelor of Science degree in Information and Computational Science
 
 ### Recent Publications
 
-1. Huang X, Zhang T, Huang J, Guo Y, **Huang G,** et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024. [[paper](https://ieeexplore.ieee.org/abstract/document/10742080)]
+1. Huang X, Zhang T, Huang J, Guo Y, **Huang G,** et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024. [ [paper](https://ieeexplore.ieee.org/abstract/document/10742080) ]
 
 This paper introduces a Linguistic-Guided Generative Large Vision Model (LiGu-LVM) to enhance the diagnostic capability of IoMT-enabled mobile ocular scanners. LiGu-LVM integrates a Dynamically Allocated High-Speed Quantization System (DAHSQS), a Linguistic-Guided Generative Local-Isolation module (LiGu), an Oculo Visio Transformatrix Segmentum-Analytica Modulorum (OVT-SAM), and a Multi-Scale Recursive Attention Segmentation Engine (MuRASE) to address challenges like low imaging quality and complex ocular morphology measurement. Experimental results demonstrate that LiGu-LVM achieves over 80% Intersection over Union (IoU) in ocular semantic segmentation, reaching 82.9% IoU on the CelebA-HQ dataset, outperforming existing models by 4.9%. This approach provides robust support for large-scale, high-precision early screening of ocular diseases in IoMT clinical environments.
 
@@ -59,7 +59,7 @@ If this article helps, feel free to cite it:
 }
 ```
 
-2. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774. [[paper](https://www.mdpi.com/1424-8220/24/3/774) | [code](https://github.com/RicoLeehdu/BiSTIM)]
+2. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774. [ [paper](https://www.mdpi.com/1424-8220/24/3/774) | [code](https://github.com/RicoLeehdu/BiSTIM) ]
 
 This paper explores techniques for segmenting optical coherence tomography angiography (OCTA) images under low-light conditions with vascular network topology constraints. A novel Biological Information Signal Transduction Imaging Framework (BiSTIM) is proposed, incorporating the Proteomic-Inspired Topological Segmentation (PrIS-TS) and Bio-Luminescence Adaptation (BLAAM) modules. These modules effectively address imaging artifacts, low signal-to-noise ratios, and vascular branching complexities. By achieving precise segmentation of superficial and deep retinal vascular layers, this method significantly enhances the reliability of disease diagnosis and classification, particularly in retinal vein occlusion (RVO) and hemicentral retinal vein occlusion (HCRVO) studies. Experiments demonstrate that this approach outperforms existing methods across multiple datasets, advancing the field of OCTA image segmentation and analysis.
 
@@ -96,9 +96,6 @@ If you are interested in my work, feel free to contact me via email: [gaopeng.hu
 
 I have a keen interest in artificial intelligence, particularly its application in improving medical diagnostics. Outside of research, I enjoy playing badminton🏸, which helps me stay physically fit and energized for learning and work 😊. If you are also interested in badminton, feel free to connect with me—I’d love to play and share the joy of sports with friends!
 
-
-
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=PeakVision0814)
 
 ![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=PeakVision0814)
-
