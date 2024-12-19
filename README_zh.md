@@ -1,6 +1,6 @@
 # 👋 你好，欢迎来到我的 GitHub！
 
-简体中文|English
+简体中文 | [English](https://github.com/PeakVision0814/PeakVision0814/blob/main/README.md)
 
 ## ℹ️ 关于我
 
@@ -35,7 +35,6 @@
 本文提出了一种语言引导生成的大型视觉模型（LiGu-LVM），旨在提高物联网医疗设备（IoMT）支持的移动眼科扫描仪的诊断能力。LiGu-LVM通过整合动态分配的高速量化系统（DAHSQS）、语言引导生成局部隔离模块（LiGu）、眼视觉变换段分析模块（OVT-SAM）和多尺度递归注意力分割引擎（MuRASE），解决了低分辨率图像处理效率低、复杂眼部形态测量难度大等问题。实验结果表明，LiGu-LVM在眼部语义分割任务中取得了超过80%的交并比（IoU），并在CelebA-HQ数据集上达到82.9%的IoU，相较现有模型性能提升了4.9%。该方法为IoMT临床环境中的大规模高精度早期筛查提供了可靠支持。
 
 如果这篇文章对你有帮助，欢迎引用：
-
 ```latex
 @article{huang2024ligu,
   title={LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection},
@@ -87,4 +86,3 @@
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=PeakVision0814)
 
 ![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=PeakVision0814)
-
