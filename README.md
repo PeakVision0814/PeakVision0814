@@ -20,7 +20,7 @@ Here are some ideas to get you started:
 
 I pursued my Bachelor of Science degree in Information and Computational Science at the School of Mathematics and Information Science, Anyang Institute of Technology, from 2017 to 2021. Currently, I am a Master's student at the School of Communication Engineering, Hangzhou Dianzi University, affiliated with the Intelligent Information Processing Laboratory. My research interests span artificial intelligence, deep learning, computer vision, and medical image segmentation. My goal is to leverage AI technologies to drive innovation in medical image processing or other visual fields and address key challenges in practical applications.
 
-[Intelligent Information Processing Laboratory](http://iipl.net.cn/) | [Our Research Group's GitHub Page](https://github.com/IMOP-lab) | [My Google Scholar Profile](https://scholar.google.com/citations?user=RDfnwXMAAAAJ&hl=en) | [My ORCID Profile](https://orcid.org/0009-0008-3190-5669)
+[**Intelligent Information Processing Laboratory**](http://iipl.net.cn/) | [**Our Research Group's GitHub Page**](https://github.com/IMOP-lab) | **[My Google Scholar Profile](https://scholar.google.com/citations?user=RDfnwXMAAAAJ&hl=en)** | [**My ORCID Profile**](https://orcid.org/0009-0008-3190-5669)
 
 ## 🔭 I’m currently working on ...
 
