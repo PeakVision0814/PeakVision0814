@@ -6,7 +6,7 @@
 
 我于 2017 年至 2021 年就读于安阳工学院数学与信息科学学院，获得信息与计算科学专业的理学学士学位。目前，我正在杭州电子科技大学通信工程学院攻读我的硕士学位，隶属于智能信息处理实验室。研究方向涵盖人工智能、深度学习、计算机视觉和医学影像分割。我的研究旨在利用人工智能技术推动医学影像处理领域或是其他视觉领域的创新，并解决实际应用中的关键问题。
 
-[智能信息处理实验室](http://iipl.net.cn/) | [我们科研小组的GitHub主页](https://github.com/IMOP-lab) | [‪我的Google学术主页‬](https://scholar.google.com/citations?user=RDfnwXMAAAAJ&hl=zh-CN) | [我的ORCID主页](https://orcid.org/0009-0008-3190-5669)
+[智能信息处理实验室](http://iipl.net.cn/) | [我们科研小组的GitHub主页](https://github.com/IMOP-lab) | [我的Google学术主页](https://scholar.google.com/citations?user=RDfnwXMAAAAJ&hl=zh-CN) | [我的ORCID主页](https://orcid.org/0009-0008-3190-5669)
 
 ## 🔭 我目前正在做...
 
