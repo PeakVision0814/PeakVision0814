@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 -->
 # 👋 Hello, welcome to my GitHub!
 
-[简体中文](https://github.com/PeakVision0814/PeakVision0814/blob/main/README_zh.md) | English
+English | [简体中文](https://github.com/PeakVision0814/PeakVision0814/blob/main/README_zh.md)
 
 ## ℹ️ About Me
 
