@@ -29,7 +29,7 @@
 
 ### 最近出版
 
-1. Sun Y, Xu Z, Guo Y, Huang J, **Huang G**, et, al. Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation[J]. Computers in Biology and Medicine, 2025, 189: 109915.
+1. Sun Y, Xu Z, Guo Y, Huang J, **Huang G**, et, al. Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation[J]. Computers in Biology and Medicine, 2025, 189: 109915. [ [paper](https://www.sciencedirect.com/science/article/pii/S0010482525002665) | [code](https://github.com/IMOP-lab/Scale-Adaptive-Net) ]
 
 这篇文章提出了一种新的方法，用于解决在全切片图像中进行癌症分割以估计肿瘤负荷这一关键步骤所面临的挑战。这些挑战包括肿瘤边界模糊以及与活肿瘤区域分离的小区域。考虑到多尺度特征在各种视觉相关任务中的有效性，本文提出了一种尺度自适应的方法。该研究关注于通过组织病理学显微镜图像的分割来准确估计活肿瘤的负荷，这对于癌症的评估至关重要。文章中提到了癌症分割、结构相似性、深度学习、数字病理学和计算病理学等关键词。
 

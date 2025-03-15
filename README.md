@@ -43,7 +43,7 @@ I pursued my Bachelor of Science degree in Information and Computational Science
 
 ### Recent Publications
 
-1. Sun Y, Xu Z, Guo Y, Huang J, **Huang G**, et, al. Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation[J]. Computers in Biology and Medicine, 2025, 189: 109915.
+1. Sun Y, Xu Z, Guo Y, Huang J, **Huang G**, et, al. Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation[J]. Computers in Biology and Medicine, 2025, 189: 109915. [ [paper](https://www.sciencedirect.com/science/article/pii/S0010482525002665) | [code](https://github.com/IMOP-lab/Scale-Adaptive-Net) ]
 
 The paper presents a new approach to address the challenges in cancer segmentation in whole-slide images, which is a fundamental step for estimating tumor burden crucial for cancer assessment. These challenges include vague boundaries and small regions dissociated from viable tumor areas. Considering the usefulness of multi-scale features in various vision-related tasks, the paper proposes a scale-adaptive method. The research focuses on accurately estimating the viable tumor burden through the segmentation of histopathological microscopy images, which is essential for cancer evaluation. The keywords mentioned in the article include cancer segmentation, structural similarity, deep learning, digital pathology, and computational pathology.
 
