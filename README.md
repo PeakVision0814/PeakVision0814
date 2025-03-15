@@ -33,8 +33,7 @@ I pursued my Bachelor of Science degree in Information and Computational Science
 
 ### Under Review
 
-1. Sun Y, Xu Z, Guo Y, Huang J, **Huang G,** et al. "Scale-Adaptive Viable Tumor Burden Estimation via Histopathological Microscopy Image Segmentation".
-2. Huang X, Yang H, **Huang G**, et al. "Enhanced Breast Carcinoma Tumor Segmentation in Dynamic Contrast-Enhanced MRI via Frequency-Harmonized Vision Mamba".
+1. Huang X, Yang H, **Huang G**, et al. "Enhanced Breast Carcinoma Tumor Segmentation in Dynamic Contrast-Enhanced MRI via Frequency-Harmonized Vision Mamba".
 3. Huang X, Yang H, Huang J, Guo Y, Xu Z, Zhang W, **Huang G,** et al. "Stratified-graph Guided Real-Time Macular Surgery Navigation System with 3D Pathway Encoding and Distributed Load Balancing".
 4. Huang X, Zhang T, Huang J, **Huang G,** et al. "Multi-Aspect Foundational Large Vision Model for Visible Light Medical Imaging Segmentation".
 5. Huang X, Chen S, Wang H, Huang T, **Huang G,** et al. "TriFTM-Net: Tri-Path Fourier-Temporal Modulation Network for Macular Edema Pathology Segmentation and Reconstruction in High-Precision Intraoperative Navigation".
@@ -44,7 +43,27 @@ I pursued my Bachelor of Science degree in Information and Computational Science
 
 ### Recent Publications
 
-1. Huang X, Zhang T, Huang J, Guo Y, **Huang G,** et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024. [ [paper](https://ieeexplore.ieee.org/abstract/document/10742080) ]
+1. Sun Y, Xu Z, Guo Y, Huang J, **Huang G**, et, al. Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation[J]. Computers in Biology and Medicine, 2025, 189: 109915.
+
+The paper presents a new approach to address the challenges in cancer segmentation in whole-slide images, which is a fundamental step for estimating tumor burden crucial for cancer assessment. These challenges include vague boundaries and small regions dissociated from viable tumor areas. Considering the usefulness of multi-scale features in various vision-related tasks, the paper proposes a scale-adaptive method. The research focuses on accurately estimating the viable tumor burden through the segmentation of histopathological microscopy images, which is essential for cancer evaluation. The keywords mentioned in the article include cancer segmentation, structural similarity, deep learning, digital pathology, and computational pathology.
+
+If this article helps, feel free to cite it:
+
+```latex
+@article{SUN2025109915,
+    title = {Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation},
+    journal = {Computers in Biology and Medicine},
+    volume = {189},
+    pages = {109915},
+    year = {2025},
+    issn = {0010-4825},
+    doi = {https://doi.org/10.1016/j.compbiomed.2025.109915},
+    url = {https://www.sciencedirect.com/science/article/pii/S0010482525002665},
+    author = {Yibao Sun and Zhaoyang Xu and Yihao Guo and Jian Huang and Gaopeng Huang and Tangsen Huang and Lou Zhao and Shaowei Jiang and Zhiwen Zheng and Jin Liu and Xiaoshuai Zhang and Xingru Huang},
+}
+```
+
+2. Huang X, Zhang T, Huang J, Guo Y, **Huang G,** et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024. [ [paper](https://ieeexplore.ieee.org/abstract/document/10742080) ]
 
 This paper introduces a Linguistic-Guided Generative Large Vision Model (LiGu-LVM) to enhance the diagnostic capability of IoMT-enabled mobile ocular scanners. LiGu-LVM integrates a Dynamically Allocated High-Speed Quantization System (DAHSQS), a Linguistic-Guided Generative Local-Isolation module (LiGu), an Oculo Visio Transformatrix Segmentum-Analytica Modulorum (OVT-SAM), and a Multi-Scale Recursive Attention Segmentation Engine (MuRASE) to address challenges like low imaging quality and complex ocular morphology measurement. Experimental results demonstrate that LiGu-LVM achieves over 80% Intersection over Union (IoU) in ocular semantic segmentation, reaching 82.9% IoU on the CelebA-HQ dataset, outperforming existing models by 4.9%. This approach provides robust support for large-scale, high-precision early screening of ocular diseases in IoMT clinical environments.
 
@@ -60,7 +79,7 @@ If this article helps, feel free to cite it:
 }
 ```
 
-2. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774. [ [paper](https://www.mdpi.com/1424-8220/24/3/774) | [code](https://github.com/RicoLeehdu/BiSTIM) ]
+3. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774. [ [paper](https://www.mdpi.com/1424-8220/24/3/774) | [code](https://github.com/RicoLeehdu/BiSTIM) ]
 
 This paper explores techniques for segmenting optical coherence tomography angiography (OCTA) images under low-light conditions with vascular network topology constraints. A novel Biological Information Signal Transduction Imaging Framework (BiSTIM) is proposed, incorporating the Proteomic-Inspired Topological Segmentation (PrIS-TS) and Bio-Luminescence Adaptation (BLAAM) modules. These modules effectively address imaging artifacts, low signal-to-noise ratios, and vascular branching complexities. By achieving precise segmentation of superficial and deep retinal vascular layers, this method significantly enhances the reliability of disease diagnosis and classification, particularly in retinal vein occlusion (RVO) and hemicentral retinal vein occlusion (HCRVO) studies. Experiments demonstrate that this approach outperforms existing methods across multiple datasets, advancing the field of OCTA image segmentation and analysis.
 

@@ -19,8 +19,7 @@
 
 ### 正在审核
 
-1. Sun Y, Xu Z, Guo Y, Huang J, **Huang G,** et al. "Scale-Adaptive Viable Tumor Burden Estimation via Histopathological Microscopy Image Segmentation".
-2. Huang X, Yang H, **Huang G**, et al. "Enhanced Breast Carcinoma Tumor Segmentation in Dynamic Contrast-Enhanced MRI via Frequency-Harmonized Vision Mamba".
+1. Huang X, Yang H, **Huang G**, et al. "Enhanced Breast Carcinoma Tumor Segmentation in Dynamic Contrast-Enhanced MRI via Frequency-Harmonized Vision Mamba".
 3. Huang X, Yang H, Huang J, Guo Y, Xu Z, Zhang W, **Huang G,** et al. "Stratified-graph Guided Real-Time Macular Surgery Navigation System with 3D Pathway Encoding and Distributed Load Balancing".
 4. Huang X, Zhang T, Huang J, **Huang G,** et al. "Multi-Aspect Foundational Large Vision Model for Visible Light Medical Imaging Segmentation".
 5. Huang X, Chen S, Wang H, Huang T, **Huang G,** et al. "TriFTM-Net: Tri-Path Fourier-Temporal Modulation Network for Macular Edema Pathology Segmentation and Reconstruction in High-Precision Intraoperative Navigation".
@@ -30,8 +29,27 @@
 
 ### 最近出版
 
-1. Huang X, Zhang T, Huang J, Guo Y, **Huang G,** et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024.[ [文章](https://ieeexplore.ieee.org/abstract/document/10742080) ]
+1. Sun Y, Xu Z, Guo Y, Huang J, **Huang G**, et, al. Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation[J]. Computers in Biology and Medicine, 2025, 189: 109915.
 
+这篇文章提出了一种新的方法，用于解决在全切片图像中进行癌症分割以估计肿瘤负荷这一关键步骤所面临的挑战。这些挑战包括肿瘤边界模糊以及与活肿瘤区域分离的小区域。考虑到多尺度特征在各种视觉相关任务中的有效性，本文提出了一种尺度自适应的方法。该研究关注于通过组织病理学显微镜图像的分割来准确估计活肿瘤的负荷，这对于癌症的评估至关重要。文章中提到了癌症分割、结构相似性、深度学习、数字病理学和计算病理学等关键词。
+
+如果这篇文章对你有帮助，欢迎引用：
+
+```latex
+@article{SUN2025109915,
+    title = {Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation},
+    journal = {Computers in Biology and Medicine},
+    volume = {189},
+    pages = {109915},
+    year = {2025},
+    issn = {0010-4825},
+    doi = {https://doi.org/10.1016/j.compbiomed.2025.109915},
+    url = {https://www.sciencedirect.com/science/article/pii/S0010482525002665},
+    author = {Yibao Sun and Zhaoyang Xu and Yihao Guo and Jian Huang and Gaopeng Huang and Tangsen Huang and Lou Zhao and Shaowei Jiang and Zhiwen Zheng and Jin Liu and Xiaoshuai Zhang and Xingru Huang},
+}
+```
+
+2. Huang X, Zhang T, Huang J, Guo Y, **Huang G,** et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024.[ [文章](https://ieeexplore.ieee.org/abstract/document/10742080) ]
 
 本文提出了一种语言引导生成的大型视觉模型（LiGu-LVM），旨在提高物联网医疗设备（IoMT）支持的移动眼科扫描仪的诊断能力。LiGu-LVM通过整合动态分配的高速量化系统（DAHSQS）、语言引导生成局部隔离模块（LiGu）、眼视觉变换段分析模块（OVT-SAM）和多尺度递归注意力分割引擎（MuRASE），解决了低分辨率图像处理效率低、复杂眼部形态测量难度大等问题。实验结果表明，LiGu-LVM在眼部语义分割任务中取得了超过80%的交并比（IoU），并在CelebA-HQ数据集上达到82.9%的IoU，相较现有模型性能提升了4.9%。该方法为IoMT临床环境中的大规模高精度早期筛查提供了可靠支持。
 
@@ -46,7 +64,7 @@
 }
 ```
 
-2. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774.[ [文章](https://www.mdpi.com/1424-8220/24/3/774) | [代码](https://github.com/RicoLeehdu/BiSTIM) ]
+3. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774.[ [文章](https://www.mdpi.com/1424-8220/24/3/774) | [代码](https://github.com/RicoLeehdu/BiSTIM) ]
 
 
 本文探讨了在血管网络拓扑约束下分割低光条件下的光学相干断层扫描血管造影（OCTA）图像的技术。研究中提出了一种基于生物学信息信号传递成像框架（BiSTIM）的新方法，包含蛋白组学启发的拓扑分割模块（PrIS-TS）和生物发光适应模块（BLAAM）。这些模块在解决成像伪影、低信噪比及血管分支复杂性方面表现出色。通过对视网膜浅层和深层血管层的精确分割，该方法显著提高了疾病诊断和分类的可靠性，尤其在视网膜静脉阻塞（RVO）和半中心静脉阻塞（HCRVO）的研究中表现优异。实验表明，该技术在多个数据集上的表现超越了现有方法，推动了OCTA图像分割和分析领域的发展。
