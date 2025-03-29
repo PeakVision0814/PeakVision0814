@@ -50,16 +50,14 @@ The paper presents a new approach to address the challenges in cancer segmentati
 If this article helps, feel free to cite it:
 
 ```latex
-@article{SUN2025109915,
-    title = {Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation},
-    journal = {Computers in Biology and Medicine},
-    volume = {189},
-    pages = {109915},
-    year = {2025},
-    issn = {0010-4825},
-    doi = {https://doi.org/10.1016/j.compbiomed.2025.109915},
-    url = {https://www.sciencedirect.com/science/article/pii/S0010482525002665},
-    author = {Yibao Sun and Zhaoyang Xu and Yihao Guo and Jian Huang and Gaopeng Huang and Tangsen Huang and Lou Zhao and Shaowei Jiang and Zhiwen Zheng and Jin Liu and Xiaoshuai Zhang and Xingru Huang},
+@article{sun2025scale,
+  title={Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation},
+  author={Sun, Yibao and Xu, Zhaoyang and Guo, Yihao and Huang, Jian and Huang, Gaopeng and Huang, Tangsen and Zhao, Lou and Jiang, Shaowei and Zheng, Zhiwen and Liu, Jin and others},
+  journal={Computers in Biology and Medicine},
+  volume={189},
+  pages={109915},
+  year={2025},
+  publisher={Elsevier}
 }
 ```
 
