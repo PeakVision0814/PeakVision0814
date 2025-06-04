@@ -19,13 +19,10 @@
 
 ### 正在审核
 
-1. Huang X, Yang H, **Huang G**, et al. "Enhanced Breast Carcinoma Tumor Segmentation in Dynamic Contrast-Enhanced MRI via Frequency-Harmonized Vision Mamba".
-3. Huang X, Yang H, Huang J, Guo Y, Xu Z, Zhang W, **Huang G,** et al. "Stratified-graph Guided Real-Time Macular Surgery Navigation System with 3D Pathway Encoding and Distributed Load Balancing".
-4. Huang X, Zhang T, Huang J, **Huang G,** et al. "Multi-Aspect Foundational Large Vision Model for Visible Light Medical Imaging Segmentation".
-5. Huang X, Chen S, Wang H, Huang T, **Huang G,** et al. "TriFTM-Net: Tri-Path Fourier-Temporal Modulation Network for Macular Edema Pathology Segmentation and Reconstruction in High-Precision Intraoperative Navigation".
-6. Chen M, Zhao X, **Huang G**, et al. "Edge-Optimized Cutaneous Carcinoma Detection via Polyphase Lightweight Integration".
-7. Wang H, **Huang G**, et al. "Kolmogorov-Arnold–Enhanced Nonlinear Expansions for Fine-Grained Feature Amplification and Robust Vessel Discrimination in Near-Shore SAR".
-8. Wang J, Zhou H, Wu H, Qiao Y, **Huang G**, et al. "Seeing the Unseen: Constrain Deep Neural Network via Light Transport formula Enable Partial Perception of Occluded Target".
+1. Huang X, Chen S, Wang H, Huang T, **Huang G,** et al. "TriFTM-Net: Tri-Path Fourier-Temporal Modulation Network for Macular Edema Pathology Segmentation and Reconstruction in High-Precision Intraoperative Navigation".
+2. Huang X, Zhang T, Huang J, **Huang G,** et al. "Multi-Aspect Foundational Large Vision Model for Visible Light Medical Imaging Segmentation".
+3. Chen M, Zhao X, **Huang G**, et al. "Edge-Optimized Cutaneous Carcinoma Detection via Polyphase Lightweight Integration".
+4. Huang X, Ye S, Huang Z, **Huang G**, et al. "Spectral-Spatial Modulation and Nonlinear Relational Projection for Complex OCT Macular Morphological Delineation"
 
 ### 最近出版
 
