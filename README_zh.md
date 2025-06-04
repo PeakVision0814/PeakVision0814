@@ -29,7 +29,13 @@
 
 ### 最近出版
 
-1. Sun Y, Xu Z, Guo Y, Huang J, **Huang G**, et, al. Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation[J]. Computers in Biology and Medicine, 2025, 189: 109915. [ [paper](https://www.sciencedirect.com/science/article/pii/S0010482525002665) | [code](https://github.com/IMOP-lab/Scale-Adaptive-Net) ]
+1. Wang H, **Huang G**, et, al. Kolmogorov–Arnold–Enhanced Nonlinear Expansions for Fine-Grained Feature Amplification in Robust Near-Shore SAR Vessel Discrimination[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2025.
+
+这篇研究论文介绍了一种名为 KaneYOLO 的新方法，旨在改进合成孔径雷达（SAR）图像中的船舶检测，特别针对两大挑战：一是在复杂的近岸环境中，船舶易与岸上物体混淆导致漏检；二是由于分辨率限制和下采样导致小型船舶特征丢失。KaneYOLO 在 YOLOv8 模型的基础上，通过引入三项关键创新进行了增强：一是 KAN 模块，它利用柯尔莫哥洛夫-阿诺德定理和 KAGN 卷积来模拟复杂的非线性关系，抑制背景杂波同时增强船舶特征；二是特征融合分配结构（FFAS），采用并行化深度卷积来有效聚合多尺度特征并保留小目标的细节；三是细节增强检测头（DEDH），使用共享卷积和组归一化（Group Normalization）以实现高效计算并改善局部特征的利用。在 HRSID 和 SSDD 数据集上的实验结果表明，KaneYOLO 具有良好的鲁棒性，取得了较高的平均精度（在 HRSID 上达到 93.9% AP，在 SSDD 上达到 98.3% AP50），并在区分杂乱近岸场景中的船舶以及检测小型船只方面显示出显著改进。
+
+如果这篇文章对你有帮助，欢迎引用。
+
+2. Sun Y, Xu Z, Guo Y, Huang J, **Huang G**, et, al. Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation[J]. Computers in Biology and Medicine, 2025, 189: 109915. [ [文章](https://www.sciencedirect.com/science/article/pii/S0010482525002665) | [代码](https://github.com/IMOP-lab/Scale-Adaptive-Net) ]
 
 这篇文章提出了一种新的方法，用于解决在全切片图像中进行癌症分割以估计肿瘤负荷这一关键步骤所面临的挑战。这些挑战包括肿瘤边界模糊以及与活肿瘤区域分离的小区域。考虑到多尺度特征在各种视觉相关任务中的有效性，本文提出了一种尺度自适应的方法。该研究关注于通过组织病理学显微镜图像的分割来准确估计活肿瘤的负荷，这对于癌症的评估至关重要。文章中提到了癌症分割、结构相似性、深度学习、数字病理学和计算病理学等关键词。
 
@@ -47,7 +53,7 @@
 }
 ```
 
-2. Huang X, Zhang T, Huang J, Guo Y, **Huang G,** et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024.[ [文章](https://ieeexplore.ieee.org/abstract/document/10742080) ]
+3. Huang X, Zhang T, Huang J, Guo Y, **Huang G,** et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024.[ [文章](https://ieeexplore.ieee.org/abstract/document/10742080) ]
 
 本文提出了一种语言引导生成的大型视觉模型（LiGu-LVM），旨在提高物联网医疗设备（IoMT）支持的移动眼科扫描仪的诊断能力。LiGu-LVM通过整合动态分配的高速量化系统（DAHSQS）、语言引导生成局部隔离模块（LiGu）、眼视觉变换段分析模块（OVT-SAM）和多尺度递归注意力分割引擎（MuRASE），解决了低分辨率图像处理效率低、复杂眼部形态测量难度大等问题。实验结果表明，LiGu-LVM在眼部语义分割任务中取得了超过80%的交并比（IoU），并在CelebA-HQ数据集上达到82.9%的IoU，相较现有模型性能提升了4.9%。该方法为IoMT临床环境中的大规模高精度早期筛查提供了可靠支持。
 
@@ -62,7 +68,7 @@
 }
 ```
 
-3. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774.[ [文章](https://www.mdpi.com/1424-8220/24/3/774) | [代码](https://github.com/RicoLeehdu/BiSTIM) ]
+4. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774.[ [文章](https://www.mdpi.com/1424-8220/24/3/774) | [代码](https://github.com/RicoLeehdu/BiSTIM) ]
 
 
 本文探讨了在血管网络拓扑约束下分割低光条件下的光学相干断层扫描血管造影（OCTA）图像的技术。研究中提出了一种基于生物学信息信号传递成像框架（BiSTIM）的新方法，包含蛋白组学启发的拓扑分割模块（PrIS-TS）和生物发光适应模块（BLAAM）。这些模块在解决成像伪影、低信噪比及血管分支复杂性方面表现出色。通过对视网膜浅层和深层血管层的精确分割，该方法显著提高了疾病诊断和分类的可靠性，尤其在视网膜静脉阻塞（RVO）和半中心静脉阻塞（HCRVO）的研究中表现优异。实验表明，该技术在多个数据集上的表现超越了现有方法，推动了OCTA图像分割和分析领域的发展。
