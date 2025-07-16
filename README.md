@@ -57,7 +57,7 @@ If this article helps, feel free to cite it.
   author={Wang, Hankang and Huang, Gaopeng and Huang, Zhao and Huang, Xingru and Xu, Zhaoyang and Zheng, Zhiwen and Liu, Shanwei and Wei, Shiqing and Liu, Jin and Zhang, Xiaoshuai},
   journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing},
   year={2025},
-  publisher={IEEE}s
+  publisher={IEEE}
 }
 ```
 
