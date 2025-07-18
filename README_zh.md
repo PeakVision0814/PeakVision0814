@@ -21,14 +21,25 @@
 
 1. Huang X, Chen S, Wang H, Huang T, **Huang G,** et al. "TriFTM-Net: Tri-Path Fourier-Temporal Modulation Network for Macular Edema Pathology Segmentation and Reconstruction in High-Precision Intraoperative Navigation".
 2. Chen M, Zhao X, **Huang G**, et al. "Edge-Optimized Cutaneous Carcinoma Detection via Polyphase Lightweight Integration".
-3. Huang X, Ye S, Huang Z, **Huang G**, et al. "Spectral-Spatial Modulation and Nonlinear Relational Projection for Complex OCT Macular Morphological Delineation"
-4. **Huang G**, Huang X, Huang Z, Yang H, et, al. "Physics-Guided Dual-Path Collaborative Network Embedding Explicit Reaction–Diffusion and Schrödinger-Domain Attentional Priors for Robust Breast DCE-MRI Tumor Segmentation".
+3. **Huang G**, Huang X, Huang Z, Yang H, et, al. "Physics-Guided Dual-Path Collaborative Network Embedding Explicit Reaction–Diffusion and Schrödinger-Domain Attentional Priors for Robust Breast DCE-MRI Tumor Segmentation".
+4. Huang X, Ye S, Huang Z, **Huang G**, et al. "Spectral-Spatial Modulation and Nonlinear Relational Projection for Complex OCT Macular Morphological Delineation".
 
 ### 最近出版
 
-1. Huang X, Zhang T, Xu Z, Huang J, **Huang G**, et, al. Multi-aspect fusion in foundational large vision model for visible light medical imaging segmentation[J]. Information Fusion, 2025. [[文章](https://linkinghub.elsevier.com/retrieve/pii/S1566253525004580) | [代码](https://github.com/IMOP-lab/MasLVM-Pytorch)]
+1. Huang X, Zhang T, Xu Z, Huang J, **Huang G**, et al. Multi-aspect fusion in foundational large vision model for visible light medical imaging segmentation[J]. Information Fusion, 2025: 103385. [[文章](https://linkinghub.elsevier.com/retrieve/pii/S1566253525004580) | [代码](https://github.com/IMOP-lab/MasLVM-Pytorch)]
 
 为解决医学图像分割中存在的语义模糊、几何结构复杂和噪声干扰等问题，本研究引入了MasLVM模型，其核心是一个三路径编码器（Tri-Path Encoder）和mKAN解码器框架。三路径编码器通过三个专用模块分别编码语义信息、频域特征和几何形态。其中，语义上下文编码器（SCE）通过整合全局上下文感知来增强语义提取；频谱样条编码器（SSE）利用多频特征调制器和KAN通道注意力来优化频域表示并抑制噪声；层次可变形形态测量编码器（HDME）则使用可变形卷积和自适应特征编码捕捉多尺度的复杂几何形状。该模型利用mKAN解码器，通过KAN多重自注意力机制和迭代注意力特征融合（iAFF）来自适应地优先处理并综合与任务相关的特征，从而优化分割结果。在包括ISIC2017、ISIC2018、PH2、CVC-ClinicDB、Kvasir-SEG和PolypGen在内的六个基准数据集上的实验评估表明，MasLVM在实现顶尖分割性能方面表现出色。这些结果证实了该模型在不同成像条件下的适应性和鲁棒性，显示了其在临床诊断和术中导航等领域的应用潜力，但仍需进一步验证。未来的工作可聚焦于减少对大量标注数据的依赖、提高计算效率、增强对不同成像模式的兼容性，以及通过多模态融合提升诊断精度。
+
+```latex
+@article{huang2025multi,
+  title={Multi-aspect fusion in foundational large vision model for visible light medical imaging segmentation},
+  author={Huang, Xingru and Zhang, Tianyun and Xu, Zhaoyang and Huang, Jian and Huang, Haopeng and Yang, Han and Zou, Binfeng and Ding, Shouqin and Ruan, Renjie and Huang, Zhao and others},
+  journal={Information Fusion},
+  pages={103385},
+  year={2025},
+  publisher={Elsevier}
+}
+```
 
 2. Wang H, **Huang G**, et, al. Kolmogorov–Arnold–Enhanced Nonlinear Expansions for Fine-Grained Feature Amplification in Robust Near-Shore SAR Vessel Discrimination[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2025. [[文章](https://doi.org/10.1109/jstars.2025.3575439)]
 
