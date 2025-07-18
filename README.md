@@ -144,7 +144,3 @@ If you are interested in my work, feel free to contact me via email: [gaopeng.hu
 ## ⚡ Fun Facts:
 
 I have a keen interest in artificial intelligence, particularly its application in improving medical diagnostics. Outside of research, I enjoy playing badminton🏸, which helps me stay physically fit and energized for learning and work 😊. If you are also interested in badminton, feel free to connect with me—I’d love to play and share the joy of sports with friends!
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=PeakVision0814)
-
-![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=PeakVision0814)

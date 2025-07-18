@@ -127,7 +127,3 @@
 ## ⚡ 有趣的事实：
 
 我对人工智能技术充满浓厚兴趣，尤其是如何运用它来提升医疗诊断的效率。除了科研，我还喜欢打羽毛球🏸，这不仅让我保持健康的身体状态，也可以我更好地投入学习和工作😊。如果你也对羽毛球感兴趣，且又在附近的话，欢迎随时找我切磋交流！
-
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=PeakVision0814)
-
-![Ashutosh's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=PeakVision0814)
