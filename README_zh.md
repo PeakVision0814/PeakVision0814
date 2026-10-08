@@ -29,7 +29,7 @@
 
 1. Chen M, Xu Z, **Huang G**, et al. PinNet: Edge-Optimized Skin Lesion Segmentation[J]. Expert Systems with Applications, 2026: 134354. [[文章](https://doi.org/10.1016/j.eswa.2026.134354) | [代码](https://github.com/IMOP-lab/PinNet)]
 
-
+这篇文章提出了面向皮肤病变分割的边缘优化轻量网络 PinNet，重点解决移动终端与嵌入式设备等资源受限场景下分割精度与计算开销难以兼顾的问题。该方法以多相轻量集成（Polyphase Lightweight Integration）为核心设计，包含两个关键模块：形态-谱谐波层（MSHL）联合形态学与频谱信息提取多尺度双域特征，增强对模糊病灶边界和复杂纹理的表征能力；双视角注意力模块（DBAM）则从空间与通道两个视角强化病灶细节的捕捉，抑制背景干扰造成的误检。在 ISIC2017 和 ISIC2018 两个公开皮肤镜数据集上的实验表明，PinNet 在将参数量压缩至 50KB、计算复杂度降至 0.068 GFLOPs 的同时，仍超越了多个现有 SOTA 轻量化分割方法，取得了领先的性能-体积比，验证了其在医学影像边缘智能部署中的实用价值。
 
 如果这篇文章对你有帮助，欢迎引用：
 
@@ -44,7 +44,7 @@
 }
 ```
 
-2. Sheng X, **Huang G**, Tan T, et al. Recurrent Optimization Network for RGB-T salient object detection[J]. Journal of Visual Communication and Image Representation, 2026: 104905.[[文章](https://doi.org/10.1016/j.jvcir.2026.104905) | [代码](https://github.com/IMOP-lab/RONet)]
+2. Sheng X, **Huang G**, Tan T, et al. Recurrent Optimization Network for RGB-T salient object detection[J]. Journal of Visual Communication and Image Representation, 2026: 104905. [[文章](https://doi.org/10.1016/j.jvcir.2026.104905) | [代码](https://github.com/IMOP-lab/RONet)]
 
 这篇文章面向 RGB 与热红外（T）模态下的显著性目标检测，提出了 Recurrent Optimization Network（RONet）。针对可见光和热红外图像在纹理、亮度及噪声方面存在差异的问题，RONet 将跨模态特征融合与递归优化结合起来：网络在逐步交互两种模态信息的同时，反复校正显著性预测和中间特征，使目标区域获得更一致的响应，并减少背景干扰、模态不一致和边界模糊造成的误检与漏检。该递归优化过程能够利用前一阶段的预测反馈后续特征提取与融合，从而改善复杂光照、低对比度和热目标不明显场景下的目标完整性与边界质量。
 
@@ -63,20 +63,21 @@
 }
 ```
 
-3. Sheng X, Sun Y, Tan T, et al. Lightweight multi-scale weight pruning network for salient object detection[J]. Journal of Visual Communication and Image Representation, 2026: 104826. [[文章](https://doi.org/10.1016/j.neunet.2026.108692) | [代码](https://github.com/IMOP-lab/TriFTM-Net)]
+3. Sheng X, Sun Y, Tan T, Li Z, Huang Z, **Huang G**, et al. Lightweight multi-scale weight pruning network for salient object detection[J]. Journal of Visual Communication and Image Representation, 2026: 104826. [[文章](https://doi.org/10.1016/j.jvcir.2026.104826) | [代码](https://github.com/IMOP-lab/LMWP-Net)]
 
-
+这篇文章提出了面向显著性目标检测的轻量级编码器-解码器网络 LMWP-Net，重点解决高精度检测与低计算复杂度之间的平衡问题。该方法围绕两个核心模块展开：多尺度权重剪枝模块（MWPM）利用学习式分组卷积和多尺度感受野，在提取上下文信息的同时抑制冗余背景响应；多尺度注意力融合模块（MAFM）则通过空间注意力与通道注意力逐步融合编码器和解码器特征，从而更好地保留显著目标的结构信息、边界细节和复杂场景下的判别能力，而不依赖笨重主干网络。在五个公开数据集上的实验结果表明，LMWP-Net 在保持较低参数量和计算量的前提下，依然能够取得具有竞争力的检测性能，兼顾速度、精度与分割质量。与现有轻量级方法相比，该模型在多项指标上表现稳定；与 BANet 相比，参数量减少 94.6%，FLOPs 减少 99.5%，体现了其在资源受限视觉系统和实时应用场景中的实际部署价值。
 
 如果这篇文章对你有帮助，欢迎引用：
 
 ```latex
 @article{sheng2026lightweight,
   title={Lightweight multi-scale weight pruning network for salient object detection},
-  author={Sheng, Xichun and Sun, Yaoqi and Tan, Tao and Li, Zhihao and Huang, Zhao and Huang, Gaopeng and Chen, Ya-Hong and Liu, Jin and Zheng, Zhiwen and Zhang, Xiaoshuai and others},
+  author={Sheng, Xichun and Sun, Yaoqi and Tan, Tao and Li, Zhihao and Huang, Zhao and Huang, Gaopeng and Chen, Ya-Hong and Liu, Jin and Zheng, Zhiwen and Zhang, Xiaoshuai and Huang, Xingru},
   journal={Journal of Visual Communication and Image Representation},
   pages={104826},
   year={2026},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  doi={10.1016/j.jvcir.2026.104826}
 }
 ```
 
@@ -100,27 +101,11 @@
 }
 ```
 
-3. Sheng X, Sun Y, Tan T, Li Z, Huang Z, **Huang G**, et al. Lightweight multi-scale weight pruning network for salient object detection[J]. Journal of Visual Communication and Image Representation, 2026: 104826. [[文章](https://doi.org/10.1016/j.jvcir.2026.104826) | [代码](https://github.com/IMOP-lab/LMWP-Net)]
-
-这篇文章提出了面向显著性目标检测的轻量级编码器-解码器网络 LMWP-Net，重点解决高精度检测与低计算复杂度之间的平衡问题。该方法围绕两个核心模块展开：多尺度权重剪枝模块（MWPM）利用学习式分组卷积和多尺度感受野，在提取上下文信息的同时抑制冗余背景响应；多尺度注意力融合模块（MAFM）则通过空间注意力与通道注意力逐步融合编码器和解码器特征，从而更好地保留显著目标的结构信息、边界细节和复杂场景下的判别能力，而不依赖笨重主干网络。在五个公开数据集上的实验结果表明，LMWP-Net 在保持较低参数量和计算量的前提下，依然能够取得具有竞争力的检测性能，兼顾速度、精度与分割质量。与现有轻量级方法相比，该模型在多项指标上表现稳定；与 BANet 相比，参数量减少 94.6%，FLOPs 减少 99.5%，体现了其在资源受限视觉系统和实时应用场景中的实际部署价值。
-
-如果这篇文章对你有帮助，欢迎引用：
-
-```latex
-@article{sheng2026lightweight,
-  title={Lightweight multi-scale weight pruning network for salient object detection},
-  author={Sheng, Xichun and Sun, Yaoqi and Tan, Tao and Li, Zhihao and Huang, Zhao and Huang, Gaopeng and Chen, Ya-Hong and Liu, Jin and Zheng, Zhiwen and Zhang, Xiaoshuai and Huang, Xingru},
-  journal={Journal of Visual Communication and Image Representation},
-  pages={104826},
-  year={2026},
-  publisher={Elsevier},
-  doi={10.1016/j.jvcir.2026.104826}
-}
-```
-
-4. Huang X, Zhang T, Xu Z, Huang J, **Huang G**, et al. Multi-aspect fusion in foundational large vision model for visible light medical imaging segmentation[J]. Information Fusion, 2025: 103385. [[文章](https://linkinghub.elsevier.com/retrieve/pii/S1566253525004580) | [代码](https://github.com/IMOP-lab/MasLVM-Pytorch)]
+5. Huang X, Zhang T, Xu Z, Huang J, **Huang G**, et al. Multi-aspect fusion in foundational large vision model for visible light medical imaging segmentation[J]. Information Fusion, 2025: 103385. [[文章](https://linkinghub.elsevier.com/retrieve/pii/S1566253525004580) | [代码](https://github.com/IMOP-lab/MasLVM-Pytorch)]
 
 为解决医学图像分割中存在的语义模糊、几何结构复杂和噪声干扰等问题，本研究引入了MasLVM模型，其核心是一个三路径编码器（Tri-Path Encoder）和mKAN解码器框架。三路径编码器通过三个专用模块分别编码语义信息、频域特征和几何形态。其中，语义上下文编码器（SCE）通过整合全局上下文感知来增强语义提取；频谱样条编码器（SSE）利用多频特征调制器和KAN通道注意力来优化频域表示并抑制噪声；层次可变形形态测量编码器（HDME）则使用可变形卷积和自适应特征编码捕捉多尺度的复杂几何形状。该模型利用mKAN解码器，通过KAN多重自注意力机制和迭代注意力特征融合（iAFF）来自适应地优先处理并综合与任务相关的特征，从而优化分割结果。在包括ISIC2017、ISIC2018、PH2、CVC-ClinicDB、Kvasir-SEG和PolypGen在内的六个基准数据集上的实验评估表明，MasLVM在实现顶尖分割性能方面表现出色。这些结果证实了该模型在不同成像条件下的适应性和鲁棒性，显示了其在临床诊断和术中导航等领域的应用潜力，但仍需进一步验证。未来的工作可聚焦于减少对大量标注数据的依赖、提高计算效率、增强对不同成像模式的兼容性，以及通过多模态融合提升诊断精度。
+
+如果这篇文章对你有帮助，欢迎引用：
 
 ```latex
 @article{huang2025multi,
@@ -133,7 +118,7 @@
 }
 ```
 
-5. Wang H, **Huang G**, et al. Kolmogorov–Arnold–Enhanced Nonlinear Expansions for Fine-Grained Feature Amplification in Robust Near-Shore SAR Vessel Discrimination[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2025. [[文章](https://doi.org/10.1109/jstars.2025.3575439)]
+6. Wang H, **Huang G**, et al. Kolmogorov–Arnold–Enhanced Nonlinear Expansions for Fine-Grained Feature Amplification in Robust Near-Shore SAR Vessel Discrimination[J]. IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 2025. [[文章](https://doi.org/10.1109/jstars.2025.3575439)]
 
 这篇研究论文介绍了一种名为 KaneYOLO 的新方法，旨在改进合成孔径雷达（SAR）图像中的船舶检测，特别针对两大挑战：一是在复杂的近岸环境中，船舶易与岸上物体混淆导致漏检；二是由于分辨率限制和下采样导致小型船舶特征丢失。KaneYOLO 在 YOLOv8 模型的基础上，通过引入三项关键创新进行了增强：一是 KAN 模块，它利用柯尔莫哥洛夫-阿诺德定理和 KAGN 卷积来模拟复杂的非线性关系，抑制背景杂波同时增强船舶特征；二是特征融合分配结构（FFAS），采用并行化深度卷积来有效聚合多尺度特征并保留小目标的细节；三是细节增强检测头（DEDH），使用共享卷积和组归一化（Group Normalization）以实现高效计算并改善局部特征的利用。在 HRSID 和 SSDD 数据集上的实验结果表明，KaneYOLO 具有良好的鲁棒性，取得了较高的平均精度（在 HRSID 上达到 93.9% AP，在 SSDD 上达到 98.3% AP50），并在区分杂乱近岸场景中的船舶以及检测小型船只方面显示出显著改进。
 
@@ -149,7 +134,7 @@
 }
 ```
 
-6. Sun Y, Xu Z, Guo Y, Huang J, **Huang G**, et al. Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation[J]. Computers in Biology and Medicine, 2025, 189: 109915. [[文章](https://www.sciencedirect.com/science/article/pii/S0010482525002665) | [代码](https://github.com/IMOP-lab/Scale-Adaptive-Net)]
+7. Sun Y, Xu Z, Guo Y, Huang J, **Huang G**, et al. Scale-Adaptive viable tumor burden estimation via histopathological microscopy image segmentation[J]. Computers in Biology and Medicine, 2025, 189: 109915. [[文章](https://www.sciencedirect.com/science/article/pii/S0010482525002665) | [代码](https://github.com/IMOP-lab/Scale-Adaptive-Net)]
 
 这篇文章提出了一种新的方法，用于解决在全切片图像中进行癌症分割以估计肿瘤负荷这一关键步骤所面临的挑战。这些挑战包括肿瘤边界模糊以及与活肿瘤区域分离的小区域。考虑到多尺度特征在各种视觉相关任务中的有效性，本文提出了一种尺度自适应的方法。该研究关注于通过组织病理学显微镜图像的分割来准确估计活肿瘤的负荷，这对于癌症的评估至关重要。文章中提到了癌症分割、结构相似性、深度学习、数字病理学和计算病理学等关键词。
 
@@ -167,7 +152,7 @@
 }
 ```
 
-7. Huang X, Zhang T, Huang J, Guo Y, **Huang G**, et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024. [[文章](https://ieeexplore.ieee.org/abstract/document/10742080)]
+8. Huang X, Zhang T, Huang J, Guo Y, **Huang G**, et al. LiGu-LVM: Linguistic-Guided Generative Large Vision Model for IoMT Clinical Ocular Disease Screening via Morphology Dissection[J]. IEEE Internet of Things Journal, 2024. [[文章](https://ieeexplore.ieee.org/abstract/document/10742080)]
 
 本文提出了一种语言引导生成的大型视觉模型（LiGu-LVM），旨在提高物联网医疗设备（IoMT）支持的移动眼科扫描仪的诊断能力。LiGu-LVM通过整合动态分配的高速量化系统（DAHSQS）、语言引导生成局部隔离模块（LiGu）、眼视觉变换段分析模块（OVT-SAM）和多尺度递归注意力分割引擎（MuRASE），解决了低分辨率图像处理效率低、复杂眼部形态测量难度大等问题。实验结果表明，LiGu-LVM在眼部语义分割任务中取得了超过80%的交并比（IoU），并在CelebA-HQ数据集上达到82.9%的IoU，相较现有模型性能提升了4.9%。该方法为IoMT临床环境中的大规模高精度早期筛查提供了可靠支持。
 
@@ -182,7 +167,7 @@
 }
 ```
 
-8. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774. [[文章](https://www.mdpi.com/1424-8220/24/3/774) | [代码](https://github.com/RicoLeehdu/BiSTIM)]
+9. Li Z, **Huang G**, Zou B, et al. Segmentation of Low-Light Optical Coherence Tomography Angiography Images under the Constraints of Vascular Network Topology[J]. Sensors, 2024, 24(3): 774. [[文章](https://www.mdpi.com/1424-8220/24/3/774) | [代码](https://github.com/RicoLeehdu/BiSTIM)]
 
 
 本文探讨了在血管网络拓扑约束下分割低光条件下的光学相干断层扫描血管造影（OCTA）图像的技术。研究中提出了一种基于生物学信息信号传递成像框架（BiSTIM）的新方法，包含蛋白组学启发的拓扑分割模块（PrIS-TS）和生物发光适应模块（BLAAM）。这些模块在解决成像伪影、低信噪比及血管分支复杂性方面表现出色。通过对视网膜浅层和深层血管层的精确分割，该方法显著提高了疾病诊断和分类的可靠性，尤其在视网膜静脉阻塞（RVO）和半中心静脉阻塞（HCRVO）的研究中表现优异。实验表明，该技术在多个数据集上的表现超越了现有方法，推动了OCTA图像分割和分析领域的发展。
